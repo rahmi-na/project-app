@@ -7,9 +7,10 @@ import Home from "./components/pages/Home";
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <div className="container mx-auto ">
-        <div>
+      <div className="container mx-auto px-4 md:px-0">
+        <Navbar />
+
+        <div className="lg:mx-40">
           <Routes>
             <Route path="/" element={<Home />} />
           </Routes>

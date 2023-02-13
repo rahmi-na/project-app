@@ -7,7 +7,7 @@ function Head() {
         <h1 className="text-4xl sm:text-6xl xl:text-8xl font-bold">
           Rahmi Nurazizah
         </h1>
-        <h1 className="text-4xl font-bold pt-5  text-transparent bg-clip-text bg-gradient-to-r from-sky-500 to-blue-500  ">
+        <h1 className="text-2xl sm:text-4xl font-bold pt-5  text-transparent bg-clip-text bg-gradient-to-r from-sky-500 to-blue-500  ">
           Frontend Developer
         </h1>
       </div>

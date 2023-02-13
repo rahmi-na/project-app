@@ -3,7 +3,7 @@ import personal from "../../../assets/personal.svg";
 
 function About() {
   return (
-    <div>
+    <div className="">
       <div className="grid grid-cols-1 md:grid-cols-2 items-center justify-center ">
         <div className="font-medium order-last md:order-first flex justify-center ">
           <div>

@@ -7,7 +7,7 @@ function Navbar() {
     setNavbar(!navbar);
   }
   return (
-    <div className="fixed w-full z-20 bg-white">
+    <div className="fixed w-full z-20 bg-base bg-white">
       <div className="">
         <nav className="container mx-auto border-gray-200  py-4 sm:py-2.5 rounded dark:bg-gray-900">
           <div className="px-3 md:px-0 lg:mx-40">
@@ -47,7 +47,7 @@ function Navbar() {
                 }`}
                 id="navbar-default"
               >
-                <ul className=" flex flex-col py-3.5 mt-4 rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0  dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                <ul className=" flex flex-col py-3.5  rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0  dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                   {navbars.map((item, idx) => (
                     <li key={idx}>
                       <div className="flex items-center">

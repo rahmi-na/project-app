@@ -49,13 +49,13 @@ function Navbar() {
               >
                 <ul className=" flex flex-col py-3.5  rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0  dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                   {navbars.map((item, idx) => (
-                    <li key={idx}>
+                    <a href={item.location} key={idx}>
                       <div className="flex items-center">
                         <label className=" font-medium py-1 text-black">
                           {item.name}
                         </label>
                       </div>
-                    </li>
+                    </a>
                   ))}
                 </ul>
               </div>

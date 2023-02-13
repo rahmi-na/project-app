@@ -2,7 +2,10 @@ import React from "react";
 
 function Head() {
   return (
-    <div className="flex justify-center items-center pt-28 pb-10 md:py-72 text-center">
+    <div
+      id="home"
+      className="flex justify-center items-center pt-28 pb-10 md:py-72 text-center"
+    >
       <div>
         <h1 className="text-4xl sm:text-6xl xl:text-8xl font-bold">
           Rahmi Nurazizah
